@@ -37,6 +37,13 @@
 	<string>316496340397-no9hh6kmabgefh5hna6vl6mq4lnolahl.apps.googleusercontent.com</string>
 	<key>GoogleOAuthRedirectPath</key>
 	<string>/oauth2redirect</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsLocalNetworking</key>
+		<true/>
+	</dict>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>Connect to Raspberry Pi to detect fruit ripeness</string>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
 	<key>UILaunchScreen</key>
